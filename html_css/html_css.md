@@ -85,7 +85,15 @@
 
 #### list (목록)
 
+- 순서없는 목록/순서있는 목록
+- ul(Unordered List) : 순서없는 목록
+- ol(Ordered List) : 순서 있는 목록
+- li(List Item) : 목록 항목
+
+**
+
 #### table (표)
+
 
 #### hyper link (하이퍼링크)
 
