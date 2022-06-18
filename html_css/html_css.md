@@ -22,8 +22,20 @@
   - 종료테그가 없는 태그 : 빈테그 (Empty Element)
 ```
 <tag> contents </tag> : Element
+
 <tag...> : Empty Element
 ```
+
+- HTML 속성(attribute)
+  - HTML element를 표시할때 필요한 추가정보 입력
+  - name:"value"
+```
+<a href="https://www.naver.com">네이버</a>
+
+<img src="photo.jpg">
+```
+
+
 
 
 ## HTML Basic structure
@@ -59,7 +71,17 @@
 
 #### heading (제목)
 
+- h(heading) : 제목테그
+- 1 ~ 6 단계로 표시됨
+
 #### paragrapgh (단락)
+
+- p(paragrapgh) : 단락테그
+- 강제줄바꿈, 강제 공백은 인식되지 않고 공백 한 칸으로만 인식
+  - line break : br (강제줄바꿈 테그)
+  - space : &nbsp; (강제 공백 엔터티(Entity))
+- hr(horizontal rule) : 수평선 긋기
+  - 단락을 선의 형태로 구분
 
 #### list (목록)
 
