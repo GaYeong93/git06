@@ -136,36 +136,35 @@
     - else if
     - else
   ```
-  if(결과값이 bool데이터인 식){
-    결과값이 참일때 실행코드
-  }
+if(결과값이 bool데이터인 식){
+  결과값이 참일때 실행코드
+}
 
-  if(bool1){
-    bool이 참일때 실행코드
-  } 
-  else if (bool2){
-    bool2가 참일때 실행코드
-  }
+if(bool1){
+  bool1이 참일때 실행코드
+}
+else if(bool2){
+  bool2가 참일때 실행코드
+}
 
-  if(bool){
-    bool이 참일때 실행코드
-  }
-  else {
-    bool이 거짓일때 실행코드
-  }
+if(bool){
+  bool이 참일때 실행코드
+}
+else {
+  bool이 거짓일때 실행코드
+}
 
-  if(bool1){
-    b
-  }
+if(bool1){
+  bool1이 참일때 실행코드
+}
+else if(bool2){
+  bool2가 참일때 실행코드
+}
+else {
+  bool1, bool2 모두 거짓일때 실행코드
+}
+```
 
-  else if(bool2){
-    bool2가 참일때 실행코드
-  }
-
-  else {
-    bool1, bool2 모두 거짓일때 실행코드
-  }
-  ```
   ```
   if(a>10){}
   if(true){}
